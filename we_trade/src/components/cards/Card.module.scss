@@ -1,0 +1,115 @@
+.card {
+    position: relative;
+    background: #ffffff;
+    background-clip: padding-box;
+    border: solid 1px transparent;
+    border-radius: 18px;
+    padding: 16px;
+    padding-bottom: 20px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -1px;
+        border-radius: inherit;
+        background: linear-gradient(135deg, #2E7DF6 0%, #0DFF6E 100%);
+    }
+
+    .tradeContainer {
+        display: flex;
+        color: #707070;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        margin-top: 12px;
+
+        span {
+            margin-right: 16px;
+        }
+
+        div {
+            color: #2E7DF6;
+            font-size: 15px;
+            font-weight: 600;
+
+        }
+    }
+
+    .name {
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+
+
+
+    .innerContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 16px 0 24px;
+
+        .title {
+            color: #707070;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22.5px;
+            letter-spacing: -0.285px;
+        }
+
+        .titleValue {
+            color: #2E7DF6;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 39px;
+            letter-spacing: -0.494px;
+        }
+    }
+
+    .followButton {
+        background: #2E7DF6;
+        border: none;
+        width: 100%;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: #ffffff;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+    }
+}
+
+.badge {
+    border-radius: 3px;
+    background: #2E7DF6;
+    margin-right: 8px;
+    padding: 4px;
+    padding-right: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: -0.19px;
+    align-items: center;
+
+    img {
+        margin-right: 4px;
+        margin-bottom: 1px;
+    }
+}

@@ -1,0 +1,82 @@
+@import '../../mixins.module';
+
+.container {
+    box-shadow: 0px 4px 50px 0px #00000012;
+    border-radius: 15px;
+    padding: 24px 30px 43px 30px;
+    margin-left: 20px;
+    overflow: hidden;
+    .innerContainer {
+        display: flex;
+        justify-content: space-between;
+        .heading {
+            margin-bottom: 26px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40px;
+            color: black;
+        }
+
+        .heading2 {
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        input::placeholder {
+            color: rgba(46, 125, 246, 1);
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            color: rgba(46, 125, 246, 1);
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 500;
+        }
+    }
+
+    .cardList {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-columns: repeat(auto-fill, minmax(1fr,1fr,1fr, 1fr));
+        gap: 10px;
+    }
+}
+
+@include mobile {
+    .container {
+        margin: 5px;
+        padding: 16px;
+
+        .innerContainer {
+            display: block;
+            .heading {
+                margin-bottom: 16px;
+                font-size: 28px;
+                line-height: 32px;
+            }
+    
+            .heading2 {
+                font-size: 20px;
+            }    
+            button {
+                border: none;
+                background-color: transparent;
+                color: rgba(46, 125, 246, 1);
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 500;
+            }
+        }
+    
+
+        .cardList {
+            grid-template-columns: auto;
+            gap: 8px;
+        }
+    }
+
+}

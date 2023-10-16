@@ -1,0 +1,100 @@
+{
+    "user_data": [
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        },
+        {
+            "avatar_image": "Avatar.png",
+            "name": "johndoe",
+            "followers_cta": "200",
+            "exchange_cta": "USD",
+            "trade_style": "Weekly",
+            "type": "Spot",
+            "roi": "100.01%",
+            "pnl": "60,000",
+            "aum": "600,000",
+            "balance": "600,000"
+        }
+    ]
+}

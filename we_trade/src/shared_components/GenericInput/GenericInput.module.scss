@@ -1,0 +1,46 @@
+@import '../../mixins.module';
+
+.outer {
+    display: flex;
+    align-items: center;
+    border-radius: 52px;
+    border: 1px solid #2E7DF6;
+    padding: 0 16px;
+    margin-bottom: 36px;
+
+    .lock {
+        margin-right: 22px;
+    }
+
+    input {
+        width: 100%;
+        border: none;
+    }
+    input:focus {
+        outline: none;
+      }
+
+    input::placeholder {
+        color: #686868;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+@include mobile{
+    .outer {
+        height: 50px;
+        padding: 0 12px;
+        margin-bottom: 30px;
+        input{
+            height: unset !important;
+        }
+        .lock {
+            margin-right: 22px;
+        }
+        input::placeholder {
+            font-size: 18px;
+        }
+    }
+}

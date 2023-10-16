@@ -1,0 +1,55 @@
+@import '../../mixins.module';
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        border-radius: 30px;
+        border: 1.8px solid #2E7DF6;
+        padding: 8px 16px;
+        background-color: white;
+        color: #2E7DF6;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: relative;
+    }
+
+    .dropDown {
+        position: absolute;
+        min-width: 100px;
+        top: 70px;
+        right: 30px;
+        z-index: 10;
+        box-shadow: 0px 4px 50px 0px #00000012;
+        padding: 20px 40px;
+
+        ul {
+            padding: 0 !important;
+            margin: 0;
+            margin-left: -5px;
+
+            li {
+                color: #686868;
+                list-style: none;
+                margin-bottom: 4px;
+                border-bottom: 1px solid #b1b1b1;
+            }
+        }
+
+    }
+}
+
+.moveBody {
+    margin-left: 300px;
+}
+.reverseArrow {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
